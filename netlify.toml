@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Fuerza Node 18 en Netlify (opcional, ajustar si usas otra versión)
+  NODE_VERSION = "18"

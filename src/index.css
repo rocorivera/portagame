@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body{
+  overflow-x: hidden;
+  margin: 0%;
+  padding: 0%;
+}
+.perspective {
+  perspective: 1000px;
+}
+.rotate-y-180 {
+  -webkit-transform: rotate(180deg);
+  transform: rotateY(180deg);
+}
+.backface-hidden {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.transform-style-preserve-3d {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.card-flip-inner {
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+@layer utilities {
+  .animate-fade-slide-in {
+    animation: fadeSlideIn 0.7s ease-out both;
+  }
+
+  @keyframes fadeSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
