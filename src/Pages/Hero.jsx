@@ -22,7 +22,7 @@ const [volteado, setVolteado] = useState(false);
 
     {/* Cara Trasera */}
     <div className="absolute inset-0 backface-hidden [transform:rotateY(180deg)] bg-gradient-to-br from-purple-800 text-white flex flex-col items-center justify-center border-4 border-purple-500 rounded-xl shadow-xl">
-      <img src="ahora.jpg" alt="Foto Robert" className="w-32 h-32 rounded-full mb-4 border-[3px] border-blue-200 shadow-[0_0_10px_rgba(255,215,0,0.8)] animate-pulse hover:scale-105" />
+      <img src="actual.jpg" alt="Foto Robert" className="w-32 h-32 rounded-full mb-4 border-[3px] border-blue-200 shadow-[0_0_10px_rgba(255,215,0,0.8)] animate-pulse hover:scale-105" />
       <h2 className="text-xl font-bold">¡Hola, soy yo!</h2>
 
               <p className="text-sm mt-2 text-gray-300 px-4 text-center">

@@ -4,4 +4,4 @@
 
 [build.environment]
   # Fuerza Node 18 en Netlify (opcional, ajustar si usas otra versión)
-  NODE_VERSION = "18"
+  NODE_VERSION = "20.19.0"
