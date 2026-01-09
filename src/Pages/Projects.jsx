@@ -7,6 +7,7 @@ import {
   GiScrollQuill,
   GiAchievement
 } from 'react-icons/gi'
+import PageWrapper from '../components/PageWrapper'
 
 const Projects = () => {
   const [tituloAnimado, setTituloAnimado] = useState('')
@@ -61,6 +62,7 @@ const Projects = () => {
   ]
 
   return (
+    <PageWrapper>
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
@@ -98,6 +100,7 @@ const Projects = () => {
         Cada proyecto es una misión completada con pasión y precisión. ¡Y vienen más! 🚀🧠
       </p>
     </motion.div>
+    </PageWrapper>
   )
 }
 

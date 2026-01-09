@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
+import PageWrapper from '../Components/PageWrapper';
 
 const Contact = () => {
   const form = useRef();
@@ -23,6 +24,7 @@ const Contact = () => {
   } 
 
   return (
+    <PageWrapper>
    <section className="py-16 bg-gray-900 text-white">
       <h2 className="text-4xl font-bold text-center mb-8">🔮 Invócame</h2>
       <form
@@ -78,6 +80,7 @@ const Contact = () => {
         </p>
       )}
     </section>
+    </PageWrapper>
   );
 }
 

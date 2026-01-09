@@ -7,6 +7,7 @@ import{
   GiCrystalBall,
   GiAchievement}
    from 'react-icons/gi'
+import PageWrapper from '../components/PageWrapper';
 const Skills = () => {
   const [animado, setAnimado]=useState(false);
   useEffect(()=>{
@@ -50,7 +51,8 @@ const Skills = () => {
   ]
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-purple-900 to-cyan-900 p-8 rounded-2xl shadow-2xl text-white max-w-xl mx-auto border-2 border-purple-700">
+    <PageWrapper>
+    <div  className="bg-gradient-to-br from-gray-900 via-purple-900 to-cyan-900 p-8 rounded-2xl shadow-2xl text-white max-w-xl mx-auto border-2 border-purple-700">
       <h2 className="text-3xl mb-8 font-extrabold text-cyan-300 drop-shadow-lg tracking-wide">🧙‍♂️ Habilidades Técnicas</h2>
       <div className="grid gap-8">
         {habilidades.map((skill) => (
@@ -79,6 +81,7 @@ const Skills = () => {
         Estas barras representan el dominio que he desarrollado en áreas técnicas y creativas.<br/>¡Siempre estoy subiendo de nivel! 🎮📈
       </p>
     </div>
+    </PageWrapper>
   )
 }
 

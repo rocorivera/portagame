@@ -6,6 +6,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { nav, video } from 'framer-motion/client';
+import PageWrapper from '../Components/PageWrapper';
 
 
 const projects = [
@@ -44,6 +45,7 @@ const projects = [
 
 export default function Gallery() {
  return (
+    <PageWrapper>
     <section className="py-12 bg-gray-900 text-white">
       <h2 className="text-4xl font-bold text-center mb-8">🎠 Carrusel de Aventuras</h2>
       <Swiper
@@ -97,6 +99,7 @@ export default function Gallery() {
         ))}
       </Swiper>
     </section>
+    </PageWrapper>
   );
 
 }
