@@ -10,10 +10,11 @@ import {
 import PageWrapper from '../components/PageWrapper.jsx'
 
 const Projects = () => {
-  const [tituloAnimado, setTituloAnimado] = useState('')
+  const [tituloAnimado, setTituloAnimado] = useState(tituloCompleto)
   const tituloCompleto = '🪄 Proyectos en Acción'
 
   useEffect(() => {
+    setTituloAnimado('');
     let index = 0
     const interval = setInterval(() => {
       setTituloAnimado(tituloCompleto.slice(0, index))
