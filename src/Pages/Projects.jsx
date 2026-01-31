@@ -18,7 +18,7 @@ const Projects = () => {
     const interval = setInterval(() => {
       setTituloAnimado(tituloCompleto.slice(0, index))
       index++
-      if (index > tituloCompleto.length) clearInterval(interval)
+      if (index === tituloCompleto.length+1) clearInterval(interval)
     }, 100) // velocidad de escritura
     return () => clearInterval(interval)
   }, [])
