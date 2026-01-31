@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom";
-import PageWrapper from "../Components/PageWrapper";
+import PageWrapper from "../components/PageWrapper.jsx";
 
 const Hero = () => {
 const [volteado, setVolteado] = useState(false);
