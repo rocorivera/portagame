@@ -11,7 +11,7 @@ import PageWrapper from '../components/PageWrapper.jsx'
 
 const Projects = () => {
   const [tituloAnimado, setTituloAnimado] = useState('')
-  const tituloCompleto = '🛠️ Proyectos en Acción'
+  const tituloCompleto = '  Proyectos en Acción'
 
   useEffect(() => {
     let index = 0
@@ -27,14 +27,14 @@ const Projects = () => {
     {
       nombre: "Pokémon Explorer",
       descripcion: "Frontend que consume la API de Pokémon para mostrar criaturas, habilidades y estadísticas. Ideal para entrenadores curiosos.",
-      tecnologias: ["React", "Tailwind", "PokéAPI"],
+      tecnologias: ["React", "CSS", "PokéAPI"],
       icono: <GiCrystalBall className="text-yellow-300 mr-2" />,
       link: "https://pokedex2019.netlify.app/"
     },
     {
       nombre: "Rick & Morty Tracker",
       descripcion: "Interfaz dinámica que consume la API oficial para explorar personajes, ubicaciones y episodios del multiverso.",
-      tecnologias: ["React", "Tailwind", "Rick&Morty API"],
+      tecnologias: ["React", "CSS", "Rick&Morty API"],
       icono: <GiSpellBook className="text-green-300 mr-2" />,
       link: "https://my-rick-and-morty12.netlify.app/"
     },
@@ -55,7 +55,7 @@ const Projects = () => {
     {
       nombre: "Backend para Tienda",
       descripcion: "Sistema de gestión para productos, usuarios y pedidos. Pensado para escalar en e-commerce real.",
-      tecnologias: ["Express", "Sequelize", "MySQL"],
+      tecnologias: ["Express", "Sequelize", "PostgreSQL"],
       icono: <GiAchievement className="text-orange-400 mr-2" />,
       link: "https://github.com/rocorivera/e-commers-back-end"
     }

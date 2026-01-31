@@ -19,7 +19,7 @@ const [volteado, setVolteado] = useState(false);
     <div className="absolute inset-0 backface-hidden bg-gradient-to-br from-cyan-500 via-gray-100 to-gold-700 border-purple-50 shadow-[0_0_15px_rgba(255,215,0,0.7)] animate-pulse duration-1000 text-white flex flex-col items-center justify-center border-4 border-purple-500 rounded-xl shadow-xl">
       <img src="apuesto.png" alt="Personaje" className="w-36 h-28 object-contain rounded-full mb-4" />
       <h2 className="text-2xl font-bold">Robert // Creador Visual 🌌</h2>
-      <p className="text-sm mt-2 text-purple-300">Diseñador de mundos y programador Full Stack</p>
+      <p className="text-sm mt-2 text-purple-900">Diseñador de mundos y programador Full Stack</p>
     </div>
 
     {/* Cara Trasera */}
