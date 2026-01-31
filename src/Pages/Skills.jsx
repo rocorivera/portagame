@@ -7,7 +7,7 @@ import{
   GiCrystalBall,
   GiAchievement}
    from 'react-icons/gi'
-import PageWrapper from '../components/PageWrapper';
+import PageWrapper from '../components/PageWrapper.jsx';
 const Skills = () => {
   const [animado, setAnimado]=useState(false);
   useEffect(()=>{

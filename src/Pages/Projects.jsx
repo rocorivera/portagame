@@ -7,7 +7,7 @@ import {
   GiScrollQuill,
   GiAchievement
 } from 'react-icons/gi'
-import PageWrapper from '../components/PageWrapper'
+import PageWrapper from '../components/PageWrapper.jsx'
 
 const Projects = () => {
   const [tituloAnimado, setTituloAnimado] = useState('')

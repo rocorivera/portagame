@@ -6,7 +6,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { nav, video } from 'framer-motion/client';
-import PageWrapper from '../Components/PageWrapper';
+import PageWrapper from '../components/PageWrapper.jsx';
 
 
 const projects = [

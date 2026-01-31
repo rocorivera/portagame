@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
-import PageWrapper from '../Components/PageWrapper';
+import PageWrapper from '../components/PageWrapper.jsx';
 
 const Contact = () => {
   const form = useRef();
