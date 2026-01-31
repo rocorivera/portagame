@@ -11,7 +11,7 @@ import PageWrapper from '../components/PageWrapper.jsx'
 
 const Projects = () => {
   const [tituloAnimado, setTituloAnimado] = useState('')
-  const tituloCompleto = '  Proyectos en Acción'
+  const tituloCompleto = '🪄 Proyectos en Acción'
 
   useEffect(() => {
     let index = 0
