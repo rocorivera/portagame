@@ -45,7 +45,7 @@ Busco espacios donde crecer profesionalmente creando algo memorable, y aportar c
          <Link to="/skills"> Explorar mis habilidades 🎮</Link>
         </button>
         <a
-         href="/Curriculum.pdf"
+         href="/micv.pdf"
         download
         className="mt-4 px-4 py-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-lg shadow-md hover:scale-105 trasition-transform">
           descargar cv
